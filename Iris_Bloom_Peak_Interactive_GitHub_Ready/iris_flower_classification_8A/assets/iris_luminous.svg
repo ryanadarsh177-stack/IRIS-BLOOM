@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" fill="none">
+ <defs>
+  <radialGradient id="halo"><stop stop-color="#E4B8FF" stop-opacity=".48"/><stop offset=".55" stop-color="#A48BFF" stop-opacity=".15"/><stop offset="1" stop-color="#8B76FF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="petalA" x1="120" y1="90" x2="380" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#F5D5FF"/><stop offset=".38" stop-color="#BCA0FF"/><stop offset="1" stop-color="#6259C8"/></linearGradient>
+  <linearGradient id="petalB" x1="170" y1="150" x2="390" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#C7F6F0"/><stop offset=".42" stop-color="#8E9BEA"/><stop offset="1" stop-color="#5B55B4"/></linearGradient>
+  <linearGradient id="petalC" x1="170" y1="130" x2="340" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#F8D9F0"/><stop offset=".5" stop-color="#B38BEA"/><stop offset="1" stop-color="#6153B6"/></linearGradient>
+  <linearGradient id="stem" x1="260" y1="310" x2="230" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#B3F3D7"/><stop offset="1" stop-color="#3C9E91"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+ </defs>
+ <circle cx="270" cy="255" r="220" fill="url(#halo)"/>
+ <circle cx="270" cy="255" r="160" fill="#A98CFF" opacity=".16" filter="url(#glow)"/>
+ <path d="M266 295C260 365 263 430 230 506" stroke="url(#stem)" stroke-width="9" stroke-linecap="round"/>
+ <path d="M249 395C190 355 148 373 123 424C184 434 225 423 249 395Z" fill="#73C9B3" fill-opacity=".78" stroke="#B7F4DF" stroke-opacity=".65" stroke-width="2"/>
+ <path d="M251 443C294 387 347 383 391 412C354 459 302 469 251 443Z" fill="#64B7A9" fill-opacity=".72" stroke="#B7F4DF" stroke-opacity=".58" stroke-width="2"/>
+ <path d="M261 276C190 258 142 205 162 143C222 150 261 192 261 276Z" fill="url(#petalA)" stroke="#F7E8FF" stroke-opacity=".75" stroke-width="3"/>
+ <path d="M267 276C208 218 204 147 257 83C311 137 316 209 267 276Z" fill="url(#petalC)" stroke="#F8E6FF" stroke-opacity=".8" stroke-width="3"/>
+ <path d="M272 276C278 192 327 143 389 144C403 211 357 259 272 276Z" fill="url(#petalA)" stroke="#F7E8FF" stroke-opacity=".75" stroke-width="3"/>
+ <path d="M260 278C194 253 136 275 119 335C174 383 226 355 260 278Z" fill="url(#petalB)" stroke="#E1FFFF" stroke-opacity=".7" stroke-width="3"/>
+ <path d="M274 278C339 247 400 270 419 330C365 383 311 357 274 278Z" fill="url(#petalB)" stroke="#E1FFFF" stroke-opacity=".7" stroke-width="3"/>
+ <path d="M262 274C230 316 232 364 267 393C306 360 303 315 274 274Z" fill="url(#petalC)" stroke="#FCE9FF" stroke-opacity=".8" stroke-width="3"/>
+ <path d="M262 284C248 321 251 348 267 368C283 345 283 318 272 284Z" fill="#F8D98F" stroke="#FFF0B5" stroke-width="2"/>
+ <path d="M264 294C249 313 241 329 239 346M274 294C287 314 294 329 295 345" stroke="#FFF4C8" stroke-width="3" stroke-linecap="round"/>
+ <g fill="#D9C5FF"><circle cx="113" cy="178" r="4"/><circle cx="401" cy="101" r="3"/><circle cx="430" cy="230" r="4"/><circle cx="92" cy="292" r="3"/><circle cx="355" cy="470" r="3"/></g>
+ <g stroke="#D6C5FF" stroke-opacity=".6" stroke-width="1.5"><path d="M415 165v16m-8-8h16M103 112v13m-6.5-6.5h13M430 385v14m-7-7h14"/></g>
+</svg>
